@@ -71,7 +71,7 @@ const Review = () => {
         <button onClick={()=>{update("random")}} className='random-btn'>surprise me</button>
         </div>
         <div className='review' >
-         <h1 className='author' id={`author-${reviews[currentReviewIndex].id}`}>{reviews[currentReviewIndex].name}</h1>
+         <h1 className='author' id={"author-" + reviews[currentReviewIndex].id}>{reviews[currentReviewIndex].name}</h1>
          <h2 className='job'>{reviews[currentReviewIndex].job}</h2>
          <h3 className='info'>{reviews[currentReviewIndex].text}</h3>
          <img height={"100px"} width={"100px"} className="person-img" src={reviews[currentReviewIndex].image} alt={reviews[currentReviewIndex].name} />
