@@ -5,13 +5,13 @@ const App = () => {
     
   return (
     <div>
-        <div className='container'>
+        <section className='container'>
             <h1 id='review-heading'>Our Reviews</h1>
             
             <Review />
             
         
-        </div>
+        </section>
     </div>
   )
 }
